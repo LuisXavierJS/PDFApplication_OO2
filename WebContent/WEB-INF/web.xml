@@ -15,8 +15,5 @@
   	<servlet-name>PDFGeneratorServlet</servlet-name>
   	<servlet-class>Servlets.PDFGeneratorServlet</servlet-class>
   </servlet>
-  <servlet-mapping>
-  	<servlet-name>PDFGeneratorServlet</servlet-name>
-  	<url-pattern>/PDFGeneratorServlet</url-pattern>
-  </servlet-mapping>
+
 </web-app>

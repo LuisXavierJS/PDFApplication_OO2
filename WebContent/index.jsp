@@ -7,11 +7,22 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1>HELLO WORLD!</h1>
-	
-	<form action="PDFGeneratorServlet" method="POST">
-		
-	</form>
-	
+	<h1>Pagina de cadastro de itens! Cada item possui uma chave e um valor compartilhados.</h1>
+	<table>
+		<tr>
+			<td>
+				<form action="PDFGeneratorServlet" method="POST">
+					<input type="text" name="chave" id="chave"/>
+					<input type="text" name="valor" id="valor"/>
+					<input type="submit" value="Adicionar Item"/>
+				</form>
+			</td>
+			<td>		
+				<form action="PDFGeneratorServlet" method="GET">
+					<input type="submit" value="Gerar PDF"/>
+				</form>
+			</td>
+		</tr>
+	</table>
 </body>
 </html>
